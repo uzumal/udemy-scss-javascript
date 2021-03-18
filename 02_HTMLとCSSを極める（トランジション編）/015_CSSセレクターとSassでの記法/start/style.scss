@@ -1,0 +1,18 @@
+.parent{
+    color: blue;
+    /* >一階層下がったときのみ */
+    & > .element {
+        color: purple;
+        &.second-child{
+            color: black;
+        }
+    }
+}
+
+.element {
+    color: red;
+}
+
+// .child {
+//     color: purple;
+// }
