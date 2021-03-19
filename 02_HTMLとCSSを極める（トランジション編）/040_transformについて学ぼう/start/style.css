@@ -1,7 +1,18 @@
+@charset "UTF-8";
 .rect {
   width: 100px;
   height: 100px;
+  /* 画面中央揃い */
   margin: 0 auto;
   background-color: orangered;
+  /* tramslate%移動は100%でその物体１個分 */
+  /* rotate 30degで右方向に30度傾く */
+  /* skew 30度変形 */
+  /* 倍数 */
+  -webkit-transform: translateX(50px) scaleY(2);
+          transform: translateX(50px) scaleY(2);
+  /* transform-origin　基準 */
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
 }
 /*# sourceMappingURL=style.css.map */
