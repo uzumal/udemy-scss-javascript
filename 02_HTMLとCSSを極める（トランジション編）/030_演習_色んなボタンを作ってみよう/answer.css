@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #container {
   text-align: center;
   display: -webkit-box;
@@ -51,6 +52,7 @@
 
 .answer .btn.letter-spacing:hover {
   background-color: black;
+  /* letter spacing は　文字と空間が伸びる */
   letter-spacing: 3px;
   color: white;
 }

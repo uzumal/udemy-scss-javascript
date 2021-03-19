@@ -45,6 +45,7 @@ $cBlack: black;
 
     &.letter-spacing:hover {
       background-color: $cBlack;
+      /* letter spacing は　文字と空間が伸びる */
       letter-spacing: 3px;
       color: $cWhite;
     }
