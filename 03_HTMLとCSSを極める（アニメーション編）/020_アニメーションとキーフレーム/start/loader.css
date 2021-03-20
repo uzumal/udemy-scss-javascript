@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   text-align: center;
 }
@@ -9,6 +10,18 @@ body {
   background-color: black;
   -webkit-animation: sk-bouncedelay 1.4s;
           animation: sk-bouncedelay 1.4s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /* 0➡︎100➡︎0 */
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.paused {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 @-webkit-keyframes sk-bouncedelay {
@@ -19,6 +32,7 @@ body {
   to {
     -webkit-transform: scale(1);
             transform: scale(1);
+    background-color: #73cdcd;
   }
 }
 
@@ -30,6 +44,7 @@ body {
   to {
     -webkit-transform: scale(1);
             transform: scale(1);
+    background-color: #73cdcd;
   }
 }
 /*# sourceMappingURL=loader.css.map */
