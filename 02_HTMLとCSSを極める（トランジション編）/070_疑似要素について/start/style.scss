@@ -19,8 +19,9 @@ $cBlack: black;
     position: relative;
     overflow: hidden;
     z-index: 1;
-
-    & span {
+    /* 文字列の前にspanがあるようなもの */
+    &::before {
+      content: '';
       display: inline-block;
       width: 100%;
       height: 100%;
@@ -36,7 +37,7 @@ $cBlack: black;
     &:hover {
       color: $cWhite;
 
-      & span {
+      &::before {
         transform: none;
       }
     }
