@@ -17,6 +17,7 @@ body {
   /* 0➡︎100➡︎0 */
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  /* 100で止まる */
 }
 
 .paused {
