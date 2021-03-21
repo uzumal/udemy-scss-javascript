@@ -1,1 +1,6 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+img {
+  /* 親要素の横幅になる */
+  max-width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

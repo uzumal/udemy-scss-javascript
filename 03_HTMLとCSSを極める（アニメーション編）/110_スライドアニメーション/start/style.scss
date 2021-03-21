@@ -1,1 +1,6 @@
 @import 'mixin';
+
+img{
+    /* 親要素の横幅になる */
+    max-width: 100%;
+}
