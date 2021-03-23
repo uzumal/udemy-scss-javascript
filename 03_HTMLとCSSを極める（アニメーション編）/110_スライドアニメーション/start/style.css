@@ -24,8 +24,8 @@ img {
 .cover-slide.inview::after {
   -webkit-animation-name: kf-cover-slide;
           animation-name: kf-cover-slide;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-duration: 1.4s;
+          animation-duration: 1.4s;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
   -webkit-animation-delay: 0s;
