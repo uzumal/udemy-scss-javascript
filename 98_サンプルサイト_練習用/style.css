@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* mobile-firstの設計
+デスクトップの方が複雑なのでモバイルをベースにし、デスクトップになった際に変更していく */
+h1 {
+  color: red;
+  background-color: yellow;
+}
+
+@media screen and (min-width: 601px) {
+  h1 {
+    color: blue;
+  }
+}
+/*# sourceMappingURL=style.css.map */

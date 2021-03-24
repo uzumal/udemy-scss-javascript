@@ -1,0 +1,14 @@
+// @import url('mobile.css') screen and (max-width: 600px);
+// @import url('desktop.css') screen and (min-width: 601px);
+
+/* mobile-firstの設計
+デスクトップの方が複雑なのでモバイルをベースにし、デスクトップになった際に変更していく */
+@import 'mobile.scss';
+
+// @media screen and (max-width: 600px){
+//     @import 'mobile.scss';
+// }
+
+@media screen and (min-width: 601px){
+    @import 'desktop.scss';
+}
