@@ -25,7 +25,7 @@ img{
         &::after{
             @include animation(
                 $name: kf-cover-slide,
-                $duration: 1.6s
+                $duration: 1.5s
             );
         }
     }
