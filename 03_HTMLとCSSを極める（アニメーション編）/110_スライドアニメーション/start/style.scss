@@ -64,10 +64,9 @@ img{
 
 .img-zoom{
     opacity: 0;
-
+    transition: transform 0.3s ease;
     .inview &{
         opacity: 1;
-        transition: transform 0.3s ease;
         @include animation($name: kf-img-show);
 
         &:hover{
